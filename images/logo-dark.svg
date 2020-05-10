@@ -1,0 +1,101 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg" id="logo">
+<defs>
+    <style>
+        #logo #svg_23 #svg_1{ 
+            stroke-dasharray:500;
+            stroke-dashoffset:0;
+            opacity:0
+
+            animation : dash 8s linear infinite;
+            -webkit-animation : dash 8s linear infinite;
+            -o-animation : dash 8s linear infinite;
+            -moz-animation : dash 8s linear infinite;
+            
+        }
+        #logo #svg_23 #svg_2{ 
+            stroke-dasharray:500;
+            stroke-dashoffset:0;
+            opacity:0
+            
+            animation : dash2 8s linear infinite;
+            -webkit-animation : dash2 8s linear infinite;
+            -o-animation : dash2 8s linear infinite;
+            -moz-animation : dash2 8s linear infinite;
+
+        }
+        #logo #svg_23 #svg_3{ 
+            stroke-dasharray:500;
+            stroke-dashoffset:0;
+            opacity:0
+            
+            animation : dash3 8s linear infinite;
+            -webkit-animation : dash3 8s linear infinite;
+            -o-animation : dash3 8s linear infinite;
+            -moz-animation : dash3 8s linear infinite;
+
+        }
+        #logo #svg_23 #svg_4{ 
+            stroke-dasharray:500;
+            stroke-dashoffset:0;
+            opacity:0
+            
+            animation : dash4 8s linear infinite;
+            -webkit-animation : dash4 8s linear infinite;
+            -o-animation : dash4 8s linear infinite;
+            -moz-animation : dash4 8s linear infinite;
+        }
+        @-webkit-keyframes dash{
+            0%{
+                opacity:0;
+                stroke-dashoffset:500;
+            }
+            25%,100%{
+                opacity:1;
+                stroke-dashoffset:0;
+            }
+        }
+        @-webkit-keyframes dash2{
+            25%{
+                opacity:0;
+                stroke-dashoffset:500;
+            }
+            50%,100%{
+                opacity:1;
+                stroke-dashoffset:0;
+            }
+        }
+        @-webkit-keyframes dash3{
+            50%{
+                opacity:0;
+                stroke-dashoffset:500;
+            }
+            75%,100%{
+                opacity:1;
+                stroke-dashoffset:0;
+            }
+        }
+        @-webkit-keyframes dash4{
+            75%{
+                opacity:0;
+                stroke-dashoffset:500;
+            }
+            76%,100%{
+                opacity:1;
+                stroke-dashoffset:0;
+            }
+        }
+        
+    </style>
+   
+</defs>
+ 
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_23">
+   <line id="svg_1" stroke="#fff" y2="187.114998" x2="58" y1="45.114998" x1="58" fill-opacity="null" stroke-opacity="null" stroke-width="17"  fill="none" opacity="0"/>
+   <path id="svg_2" stroke="#fff" d="m58.0175,51.999998l42.5,0l0,0c23.47211,0 42.5,13.2076 42.5,29.5c0,16.2924 -19.02789,29.5 -42.5,29.5l-42.5,0l0,-67.5z" fill-opacity="null" stroke-opacity="null" stroke-width="17" fill="none" opacity="0"/>
+   <line id="svg_3" stroke="#fff" y2="182.114985" x2="132.999994" y1="54.114998" x1="68" fill-opacity="null" stroke-opacity="null" stroke-width="17" fill="none" opacity="0"/>
+   <path id="svg_4" stroke="#fff" d="m134.622489,175.882016l11.000012,0l0,1.99999l-11.000012,0l0,-1.99999z" fill-opacity="null" stroke-opacity="null" stroke-width="17" fill="#000000" opacity="0"/>
+  </g>
+ </g>
+</svg>
