@@ -356,12 +356,12 @@
             $("#navbarMenu").toggleClass('visible')
             $(".menu-icon").toggleClass('menu-visible')
         }
-        // if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        //     $('#logo').attr('src', 'images/logo-dark.svg')
-        // } else {
-        //     //light mode
-        //     $('#logo').attr('src', 'images/logo-light.svg')
-        // }
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            $('#logo').attr('src', 'images/logo-dark.svg')
+        } else {
+            //light mode
+            $('#logo').attr('src', 'images/logo-light.svg')
+        }
         var css_links = [
             'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css',
             'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css',
